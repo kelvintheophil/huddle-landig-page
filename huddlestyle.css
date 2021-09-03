@@ -3,11 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    position: relative;
+}
 
 img{
     width: 30%;
 }
-
+/*-------------section 1 styles------*/
 
 .section-1 {
    background: url(images/bg-hero-desktop.svg);
@@ -60,6 +63,7 @@ img{
     width: 20%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 6px 10px 0 rgba(0, 0, 0, 0.15);
+    transition: all linear 0.5s;
 }
 
 .inside2-section-1 > a{
@@ -78,6 +82,7 @@ img{
     color: black;
     width: 160px;
     text-align: center;
+    transition: all linear 0.5s;
 }
 .inside2-section-1 >img{
     position: absolute;
@@ -85,6 +90,315 @@ img{
     top: 20%;
     width: 31%;
 }
+
+/*--------------------section-2 style --*/
+
+.section-2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 10px;
+    box-shadow: 2px 6px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 10px 0 rgba(0, 0, 0, 0.15);
+    margin: 60px 50px 0px 50px;
+    height: 45vh;
+    transition: all linear 0.3s;
+}
+
+.inside1-section-2{
+    width: 100%;
+}
+.inside1-section-2 >h3 {
+    font-weight: 700;
+    font-family: 'Poppins',
+    sans-serif;
+    margin: 100px 10px 10px 180px;
+    display: flex;
+    align-items: center;
+}
+.inside1-section-2 > p{
+    font-weight: 400;
+    font-family: 'Open Sans',
+    sans-serif;
+    width: 70%;
+    margin: 10px 10px 10px 180px;
+}
+
+.inside2-section-2{
+    width: 100%;
+}
+.inside2-section-2 > img{
+    width: 50%;
+    margin: 20px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*--------------------section-3 style --*/
+.section-3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 10px;
+    box-shadow: 2px 6px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 10px 0 rgba(0, 0, 0, 0.15);
+    margin: 60px 50px 0px 50px;
+    height: 45vh;
+    transition: all linear 0.3s;
+}
+
+.inside1-section-3 {
+    width: 100%;
+}
+
+.inside1-section-3 > h3 {
+    font-weight: 700;
+    font-family: 'Poppins',
+        sans-serif;
+    margin: 100px 10px 10px 180px;
+    display: flex;
+    align-items: center;
+}
+
+.inside1-section-3 > p {
+    font-weight: 400;
+    font-family: 'Open Sans',
+        sans-serif;
+    width: 70%;
+    margin: 10px 10px 10px 180px;
+}
+
+.inside2-section-3 {
+    width: 100%;
+}
+
+.inside2-section-3 > img {
+    width: 50%;
+    margin: 20px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*--------------------section-4 style --*/
+.section-4 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 10px;
+    box-shadow: 2px 6px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 10px 0 rgba(0, 0, 0, 0.15);
+    margin: 60px 50px 0px 50px;
+    height: 45vh;
+    transition: all linear 0.3s;
+}
+
+.inside1-section-4 {
+    width: 100%;
+}
+
+.inside1-section-4 > h3 {
+    font-weight: 700;
+    font-family: 'Poppins',
+        sans-serif;
+    margin: 100px 10px 10px 180px;
+    display: flex;
+    align-items: center;
+}
+
+.inside1-section-4 > p {
+    font-weight: 400;
+    font-family: 'Open Sans',
+        sans-serif;
+    width: 70%;
+    margin: 10px 10px 10px 180px;
+}
+
+.inside2-section-4 {
+    width: 100%;
+}
+
+.inside2-section-4 > img {
+    width: 50%;
+    margin: 20px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-4-1{
+    position: absolute;
+    width: 60%;
+    border-radius: 10px;
+    background: white;
+    padding: 80px;
+    left: 20%;
+    bottom: 14%;
+    box-shadow: 2px 6px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 10px 0 rgba(0, 0, 0, 0.15); 
+    transition: all linear 0.3s;
+}
+
+.section-4-1-upfron > h2{
+     font-weight: 700;
+     font-family: 'Poppins',
+     sans-serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.section-4-1-upfron > a{
+    font-weight:600;
+    font-family: 'Open Sans',
+    sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    background: hsl(322, 100%, 66%);
+    border-radius: 30px;
+    padding: 15px;
+    width: 50%;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 10px 0 rgba(0, 0, 0, 0.15);
+    transition: all linear 0.5s;
+}
+
+/*--------------------section-5 style --*/
+
+.section-5{
+    margin-top: 350px;
+    background: hsl(192, 100%, 9%);
+    height: auto;
+    display: grid;
+    grid-template-columns: 50% 12% 12% auto ;
+}
+.inside1-section-5{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto ;
+    margin: 100px 0px 10px 50px;
+}
+.inside1-section-5 > .stlogo{
+    width: 30%;
+    grid-column: 1/3;
+    
+} 
+
+.inside1-section-5 > img{
+    width: 15px;
+    margin: 20px 0px 10px 30px;
+    color: white;
+}
+
+.inside1-section-5 > p {
+    font-weight:600;
+    font-family: 'Open Sans',
+    sans-serif;
+    grid-column: 2/3;
+    margin: 15px 10px 0px 10px;
+    width: 70%;
+    color: white;
+}
+
+.inside1-section-5 > .section5-para3{
+    margin-bottom: 50px;
+    color: white;
+}
+
+.inside2-section-5{
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns:auto ;
+    grid-template-rows: 40px 40px;
+}
+.inside2-section-5 > a{
+   margin: 80px 30px ;
+   text-decoration: none;
+   font-weight: 600;
+   font-family: 'Open Sans',
+   sans-serif;
+   color: white;
+}
+
+.inside3-section-5 {
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: auto;
+    grid-template-rows: 40px 40px;
+}
+
+.inside3-section-5> a {
+    margin: 80px 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Open Sans',
+    sans-serif;
+    color: white;
+}
+
+.inside4-section-5{
+    display: grid;
+    grid-template-columns: 70px 50px 50px;
+    margin-top: 100px;
+    grid-template-rows: auto auto;
+}
+
+.inside4-section-5 > img{
+    margin: 70px;
+    font-weight: 600;
+    font-family: 'Open Sans',
+    sans-serif;
+    color: white;
+}
+
+.inside4-section-5 > p{
+    grid-column: 1/8;
+    margin: 20px 0px 0px 20px;
+    font-weight: 600;
+    font-family: 'Open Sans',
+    sans-serif;
+    color: white;
+}
+
+
+/*--------------------active states buttons , links and sections--*/
+
+.inside1-section-1 > a:hover{
+    opacity: 0.8;
+    box-shadow: 0 4px 4px 0 rgba(173, 165, 165, 0.726),
+    0 6px 4px 0 rgba(230, 227, 227, 0.602);
+}
+
+.inside2-section-1 > a:hover{
+    opacity: 0.8;
+    box-shadow: 0 4px 4px 0 rgba(173, 165, 165, 0.726),
+    0 6px 4px 0 rgba(230, 227, 227, 0.602);
+}
+
+.section-4-1-upfron>a:hover{
+    opacity: 0.8;
+    box-shadow: 0 4px 4px 0 rgba(173, 165, 165, 0.726),
+    0 6px 4px 0 rgba(230, 227, 227, 0.602);
+}
+
+.inside2-section-5>a:hover , .inside3-section-5>a:hover {
+    text-decoration: underline;
+}
+
+.inside4-section-5>img:hover {
+    color: hsl(322, 100%, 66%); 
+}
+
+.section-2:hover , .section-3:hover , .section-4:hover {
+    opacity: 0.8;
+    box-shadow: 0 4px 4px 0 rgba(173, 165, 165, 0.726),
+    0 6px 4px 0 rgba(230, 227, 227, 0.602);
+}
+
+
 
 
 
