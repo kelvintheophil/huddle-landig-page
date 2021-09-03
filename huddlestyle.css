@@ -393,7 +393,7 @@ img{
 }
 
 .section-2:hover , .section-3:hover , .section-4:hover {
-    opacity: 0.8;
+    opacity: 0.9;
     box-shadow: 0 4px 4px 0 rgba(173, 165, 165, 0.726),
     0 6px 4px 0 rgba(230, 227, 227, 0.602);
 }
